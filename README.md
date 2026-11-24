@@ -27,23 +27,3 @@ Open `index.html` in a browser, or for a closer match to hosting run
 3. **Sample form**: it uses Netlify Forms and works automatically on Netlify
    (submissions appear under Site → Forms, with email notifications available). On other hosts,
    point the form at a free service such as Formspree by changing the `fetch('/')` URL in `main.js`.
-
-## Deploy (free)
-
-### Netlify (recommended, the sample form works with no setup)
-1. Go to app.netlify.com/drop.
-2. Drag this whole folder onto the page.
-3. The site is live on a `*.netlify.app` address. Add your own domain under Domain management.
-
-### Cloudflare Pages
-1. dash.cloudflare.com → Workers & Pages → Create → Pages → Upload assets.
-2. Upload this folder and deploy. You get a `*.pages.dev` address with unlimited bandwidth.
-
-### Vercel
-1. Install the CLI (`npm i -g vercel`), run `vercel` inside this folder, accept the defaults.
-   Or push the folder to GitHub and import the repo at vercel.com/new.
-
-### GitHub Pages
-1. Create a public repository and upload these files to it.
-2. Settings → Pages → Source: Deploy from a branch → `main` / root → Save.
-3. The site appears at `https://<username>.github.io/<repo>/`.
